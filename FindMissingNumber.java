@@ -17,6 +17,7 @@ public class FindMissingNumber {
         }
         xor2^=N;
         System.out.println(xor1^xor2);
+        sc.close();
     }
     
 }

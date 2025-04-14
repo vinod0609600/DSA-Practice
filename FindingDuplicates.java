@@ -1,4 +1,4 @@
-import java.security.KeyStore.Entry;
+
 import java.util.*;;
 
 public class FindingDuplicates {
@@ -20,6 +20,7 @@ public class FindingDuplicates {
             }
             
         }
+        sc.close();
     }
     
 }

@@ -1,4 +1,4 @@
-import java.security.KeyStore.Entry;
+
 import java.util.*;
 public class FindingUniqueElement {
     public static void main(String[]args){
@@ -19,6 +19,7 @@ public class FindingUniqueElement {
             }
             
         }
+        sc.close();
     }
     
 }
