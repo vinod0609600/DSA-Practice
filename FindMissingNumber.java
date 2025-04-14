@@ -10,7 +10,7 @@ public class FindMissingNumber {
             arr[i]=sc.nextInt();
         }
         int xor1=0;
-        int xor2=0;5
+        int xor2=0;
         for(int i=0;i<n;i++){
             xor1^=arr[i];
             xor2^=(i+1);
