@@ -8,17 +8,13 @@ public class FindingUniqueElement {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
-        Map<Integer,Integer>Hm=new HashMap<>();
+        int unique=0;
         for(int i=0;i<n;i++){
-            Hm.put(arr[i],Hm.getOrDefault(arr[i],0)+1);
+            unique^=arr[i];
         }
-        System.out.println("Unique elements");
-        for(Map.Entry<Integer,Integer>entryset:Hm.entrySet()){
-            if(entryset.getValue()<2){
-                System.out.println(entryset.getKey()+" ");
-            }
+        System.out.println(unique);
             
-        }
+        
     }
     
 }
