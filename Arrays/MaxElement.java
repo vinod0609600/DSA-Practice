@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.*;
 class MaxElement{
     public static void main(String [] args){

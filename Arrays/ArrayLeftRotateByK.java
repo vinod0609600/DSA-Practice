@@ -1,3 +1,4 @@
+package Arrays;
 import java.util.Scanner;
 public class ArrayLeftRotateByK {
     public static void reverse(int[] arr,int start,int end){
