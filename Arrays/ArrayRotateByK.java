@@ -1,6 +1,15 @@
 package Arrays;
 import java.util.Scanner;
 
+// logic 
+// same left rotation lagane but first array ni reverse chestham
+// tarwath k elements
+// tarwatha n-k elements
+// like [1,2,3,4,5] => 2 steps = [4,5,1,2,3]
+// approch
+// reveerse entire array [5,4,3,2,1] => reversee first k elements [4,5,3,2,1] => reverse n-k elements [4,5,1,2,3]
+// we got solution
+
 public class ArrayRotateByK {
     public static void reverse(int[] arr,int start,int end){
         while(start<=end){
