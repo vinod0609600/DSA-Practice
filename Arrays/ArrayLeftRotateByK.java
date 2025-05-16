@@ -1,5 +1,17 @@
 package Arrays;
 import java.util.Scanner;
+
+// logic 
+// edhi oka juggling algorithm 
+// simple nti ante array ni left side rotate cheyyali adhi k steps 
+// like 
+// [1,2,3,4,5]=> 2 steps left ante [3,4,5,1,2]
+//  deniki first 2 elements reverse chey like [2,1]
+//  tarwatha remainig elements kuda reverse chey like [5,4,3]
+//  now array be like [2,1,5,4,3]
+//  eppudu entire array ni rotate chesthe [3,4,5,1,2]
+//  we got solution 
+
 public class ArrayLeftRotateByK {
     public static void reverse(int[] arr,int start,int end){
         while(start<=end){
