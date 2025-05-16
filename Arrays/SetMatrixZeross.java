@@ -1,5 +1,8 @@
 package Arrays;
-
+//   logic 
+//   matrix lo first row inka first column boolean array laga use chesa, intiial ga first asl ah first rowzer
+//   inka column lo zeros unnayemo store cheskunna oka boolean variabble lo malli last ki zeros unte ah row inka 
+//   column ni kudaa zero cheyyadaniki
 public class SetMatrixZeross {
     public static void main(String[] args) {
         int matrix[][]={{1,0,1,0},
