@@ -1,5 +1,8 @@
 package Arrays;
-import java.util.*;;
+import java.util.*;
+
+// logic 
+// simple ga oka hashmap use chesi dani count tho store chesi greater than 1 unte return cheyyadame
 
 public class FindingDuplicates {
     public static void main(String[]args){
