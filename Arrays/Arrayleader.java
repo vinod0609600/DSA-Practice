@@ -4,6 +4,15 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.ArrayList;
 
+// logic
+// problem:
+// An element is a leader if it is strictly greater than all the elements to its right.
+// sol:
+//     simple thing array ni reverse lo  traverse avvu,intiial ga array last element pakkana m undav 
+//     kabatti adhi leader avthadi ,inka next dani kante pedha number edina dorikithe list loki adhi add chey anthe
+
+//     [1,2,12,3,6,5]
+//     endhulo mana logic prakaram leaderrs,5,6,12
 
 public class Arrayleader {
     public static void main(String[] args) {
