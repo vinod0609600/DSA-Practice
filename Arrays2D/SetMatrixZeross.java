@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays2D;
 //   logic 
 //   matrix lo first row inka first column boolean array laga use chesa, intiial ga first asl ah first rowzer
 //   inka column lo zeros unnayemo store cheskunna oka boolean variabble lo malli last ki zeros unte ah row inka 
